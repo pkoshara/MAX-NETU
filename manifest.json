@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MAX NETU",
+  "version": "1.0",
+  "description": "Удаляет рекламу скама из электронного дневника one.astrobl.ru",
+  "content_scripts": [
+    {
+      "matches": ["https://one.astrobl.ru/*"], 
+      "css": ["style.css"],
+      "run_at": "document_start"
+    }
+  ]
+}
